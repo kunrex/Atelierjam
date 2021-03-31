@@ -36,7 +36,7 @@ namespace Jam
                 };
 
                 //operations
-                Console.WriteLine("Enter an Operation");
+                Console.WriteLine("Enter an Operation. + for addition. - for subtraction. * for multiplication. / for division");
                 string operation = Console.ReadLine();
 
                 switch(operation)
